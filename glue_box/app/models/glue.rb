@@ -1,0 +1,4 @@
+class Glue < ApplicationRecord
+
+
+end

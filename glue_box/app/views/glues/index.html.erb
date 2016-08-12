@@ -8,6 +8,16 @@
 	<div id="index_div">
 		<p class="index_p"><%= @test %></p>
 	</div>
+	<div id="glues_index-divBlock">
+		<a href="/glues/new">Write a new glue</a>
+		<div class="glues_index-singleDiv">
+			<% @glues.each do |each_glue| %>
+			<h2>Title: <a href="/glues/<%= each_glue.id %>"><%= each_glue.title %></a></h2>
+			<h3>User: <%= each_glue.user %></h3>
+			<p>Content: <%= each_glue.content %></p>
+		<% end %>
+		</div>
+	</div>
 </div>
 
 </body>

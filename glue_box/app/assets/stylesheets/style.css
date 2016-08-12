@@ -29,3 +29,13 @@ body {
 	font-family: monospace;
 	font-size: 1em;
 }
+
+#glues_index-divBlock {
+	display: block;
+	background: #aaa;
+}
+
+.glues_index-singleDiv {
+	display: inline-block;
+	background: #eee;
+}

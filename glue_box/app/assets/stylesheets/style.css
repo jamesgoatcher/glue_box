@@ -38,4 +38,10 @@ body {
 .glues_index-singleDiv {
 	display: inline-block;
 	background: #eee;
+	font-family: monospace;
+}
+
+.index_a {
+	text-decoration: none;
+	color: #222
 }

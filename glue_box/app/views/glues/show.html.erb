@@ -5,9 +5,8 @@
 <body>
 	<h1>Show</h1>
 	<ul>
-		<li>Title: <%= @glue.title %></li>
 		<li>User: <%= @glue.user %></li>
-		<li>Content: <%= @glue.content %></li>
+		<li>Content: <%= simple_format(@glue.content) %></li>
 	</ul>
 	<br>
 	<%= link_to "Edit #{@glue.title}", edit_glue_path(@glue) %>
